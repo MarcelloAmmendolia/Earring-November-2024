@@ -34,10 +34,23 @@ This is how the leds are connected:
 - LED29 has his positive (+) side connected to NETLED01, while negative (-) to NETLED06
 - LED30 has his positive (+) side connected to NETLED06, while negative (-) to NETLED01
 
-- NETLED01 is connected to Pin PA3 (9) of the microcontroller (STM32L031G6U6)
-- NETLED02 is connected to Pin PA8 (18) of the microcontroller
-- NETLED03 is connected to Pin PA9 (19) of the microcontroller
-- NETLED04 is connected to Pin PA10 (20) of the microcontroller
-- NETLED05 is connected to Pin PB0 (14) of the microcontroller
-- NETLED06 is connected to Pin PA7 (13) of the microcontroller
+- NETLED01 is connected to Pin PA3 (9) of the microcontroller (STM32L031G6U6)  
+- NETLED02 is connected to Pin PA8 (18) of the microcontroller  
+- NETLED03 is connected to Pin PA9 (19) of the microcontroller  
+- NETLED04 is connected to Pin PA10 (20) of the microcontroller  
+- NETLED05 is connected to Pin PB0 (14) of the microcontroller  
+- NETLED06 is connected to Pin PA7 (13) of the microcontroller  
+
+Additionally, there is a MEMS microphone (S15OT421-005) wich has it's OUT pin connected to PIN PA6 (12) of the microcontroller;  
+Additionally, there is a Touch sensor (AT42QT1010-TSHR) wich has it's OUT pin connected to PIN PB6 (25) of the microcontroller;  
+
+I wish to program the custom board mounting this microcontroller, using an STM32-Nucleo Board as programmer connected to my computer.  
+Specifically i want to use SWD method to flash the code inside the custom board. That's why I have the pins:  
+- 3V3
+- SWDIO
+- SWCLK
+- RESET
+- GND
+for connecting the custom board to the STM32-Nucleo board (the programmer)
+
 
