@@ -47,11 +47,13 @@ Additionally, there is a Touch sensor (AT42QT1010-TSHR) wich has it's OUT pin co
 
 I wish to program the custom board mounting this microcontroller, using an STM32-Nucleo Board as programmer connected to my computer.  
 Specifically i want to use SWD method to flash the code inside the custom board. That's why I have the pins:  
+
 - 3V3
 - SWDIO
 - SWCLK
 - RESET  
 - GND  
+
 for connecting the custom board to the STM32-Nucleo board (the programmer)  
 I want to use STM32 Cube IDE to flash the board.
 
