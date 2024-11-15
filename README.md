@@ -34,10 +34,10 @@ This is how the leds are connected:
 - LED29 has his positive (+) side connected to NETLED01, while negative (-) to NETLED06
 - LED30 has his positive (+) side connected to NETLED06, while negative (-) to NETLED01
 
-NETLED01 is connected to Pin PA3 (9) of the microcontroller (STM32L031G6U6)
-NETLED02 is connected to Pin PA8 (18) of the microcontroller
-NETLED03 is connected to Pin PA9 (19) of the microcontroller
-NETLED04 is connected to Pin PA10 (20) of the microcontroller
-NETLED05 is connected to Pin PB0 (14) of the microcontroller
-NETLED06 is connected to Pin PA7 (13) of the microcontroller
+- NETLED01 is connected to Pin PA3 (9) of the microcontroller (STM32L031G6U6)
+- NETLED02 is connected to Pin PA8 (18) of the microcontroller
+- NETLED03 is connected to Pin PA9 (19) of the microcontroller
+- NETLED04 is connected to Pin PA10 (20) of the microcontroller
+- NETLED05 is connected to Pin PB0 (14) of the microcontroller
+- NETLED06 is connected to Pin PA7 (13) of the microcontroller
 
