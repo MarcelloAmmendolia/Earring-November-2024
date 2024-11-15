@@ -45,14 +45,15 @@ This is how the leds are connected:
 Additionally, there is a MEMS microphone (S15OT421-005) wich has it's OUT pin connected to PIN PA6 (12) of the microcontroller;  
 Additionally, there is a Touch sensor (AT42QT1010-TSHR) wich has it's OUT pin connected to PIN PB6 (25) of the microcontroller;  
 
+
 I wish to program the custom board mounting this microcontroller, using an STM32-Nucleo Board as programmer connected to my computer.  
 Specifically i want to use SWD method to flash the code inside the custom board. That's why I have the pins:  
 
-- 3V3
-- SWDIO
-- SWCLK
-- RESET  
-- GND  
+- 3V3 connected to VDDA (5) and VDD (17,1)
+- SWDIO connected to pin PA14 (22) of microcontroller
+- SWCLK connected to pin PA13 (21) of microcontroller
+- RESET connected to NRST (4) of microcontroller
+- GND  connected to BOOT0 (27), VSS (28,16), 
 
 for connecting the custom board to the STM32-Nucleo board (the programmer)  
 I want to use STM32 Cube IDE to flash the board.
