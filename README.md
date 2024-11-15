@@ -1,5 +1,6 @@
 # Earring-November-2024
 
+
 There are 6 lines that control the charlieplexed leds.
 Namely, NETLED01, NETLED02, NETLED03, NETLED04, NETLED05, NETLED06.
 This is how the leds are connected:
@@ -49,8 +50,10 @@ Specifically i want to use SWD method to flash the code inside the custom board.
 - 3V3
 - SWDIO
 - SWCLK
-- RESET
-- GND
-for connecting the custom board to the STM32-Nucleo board (the programmer)
+- RESET  
+- GND  
+for connecting the custom board to the STM32-Nucleo board (the programmer)  
+I want to use STM32 Cube IDE to flash the board.
+
 
 
